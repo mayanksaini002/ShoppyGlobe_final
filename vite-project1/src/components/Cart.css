@@ -1,0 +1,143 @@
+/* Cart.css - Dark Ambient Theme */
+.cart-container {
+  max-width: 800px;
+  margin: 120px auto 60px;
+  background: linear-gradient(135deg, #121212, #1f1f1f);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  color: #ddd;
+  transition: all 0.3s ease-in-out;
+  margin-top: 40px;
+}
+
+.cart-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+/* Cart Items */
+.cart-items {
+  margin-bottom: 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  transition: background 0.3s ease-in-out;
+
+}
+
+.cart-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cart-item img:hover {
+  transform: scale(1.05);
+}
+
+.cart-item-details {
+  flex-grow: 1;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.cart-item-details h4 {
+  color: #ffffff;
+}
+
+.cart-item-details p {
+  color: #cdc2c2;
+}
+
+.cart-summary {
+  text-align: right;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+/* Checkout Button */
+.btn-checkout {
+  display: inline-block;
+  background: linear-gradient(135deg, #4CAF50, #1e7e34);
+  color: #fff;
+  padding: 12px 24px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.btn-checkout:hover {
+  background: linear-gradient(135deg, #43A047, #145c2d);
+  box-shadow: 0 6px 16px rgba(76, 175, 80, 0.5);
+  transform: scale(1.05);
+}
+
+/* Empty Cart */
+.cart-empty {
+  text-align: center;
+  padding: 100px;
+  font-size: 1.8rem;
+  color: #999;
+}
+
+.cart-empty h2 {
+  font-size: 2.2rem;
+  color: #bbb;
+  margin-bottom: 2rem;
+}
+
+.cart-empty a{
+  border: 1px solid white;
+  margin-top: 2rem;
+  padding: 0.7rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.cart-empty a:hover{
+  box-shadow: 1px 1px 4px 1px white ,
+  -1px -1px white;
+  color: #ffffff;
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cart-container {
+      padding: 20px;
+  }
+
+  .cart-item {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .btn-checkout {
+      width: 50%;
+      text-align: center;
+  }
+}

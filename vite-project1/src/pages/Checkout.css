@@ -1,0 +1,71 @@
+/* src/pages/Checkout.css */
+.checkout-page {
+  max-width: 600px;
+  margin: 120px auto;
+  background-color: #3b3b3b;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  color: #ededed;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.checkout-page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.success-message {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #a4fba6;
+}
+
+.order-summary {
+  background-color: #4b4b4b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.order-summary h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.order-summary ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-summary li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+.info {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.home-button {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #198754;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #157347;
+}
